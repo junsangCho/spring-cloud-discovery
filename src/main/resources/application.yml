@@ -9,12 +9,12 @@ spring:
 
 eureka:
   client:
-    registerWithEureka: false #Eureka Service? ??? ???? ???
-    fetchRegistry: false      #Registry ??? ??? ???? ???
+    registerWithEureka: false #Eureka Service에 자신을 등록하지 않는다.
+    fetchRegistry: false      #Registry 정보를 로컬에 캐싱하지 않는다.
   server:
     waitTimeInMsWhenSyncEmpty: 0
 
-# acuator ??
+# acuator 관련 설정
 management:
   endpoints:
     web:
