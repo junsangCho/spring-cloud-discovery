@@ -1,0 +1,22 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka
+  profiles:
+    active: prod
+
+eureka:
+  client:
+    registerWithEureka: false #Eureka Service? ??? ???? ???
+    fetchRegistry: false      #Registry ??? ??? ???? ???
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+
+# acuator ??
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
