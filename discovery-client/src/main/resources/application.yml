@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: eureka-client
+  profiles:
+    active: prod
+
+eureka:
+  client:
+    service-url:
+        defaultZone: http://localhost:8761/eureka/
+
+
+# acuator \uAD00\uB828 \uC124\uC815
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health

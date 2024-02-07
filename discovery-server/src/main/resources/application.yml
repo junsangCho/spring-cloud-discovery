@@ -1,0 +1,30 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eurekaServer
+  profiles:
+    active: prod
+
+eureka:
+  client:
+    registerWithEureka: false #Eureka Service\uC5D0 \uC790\uC2E0\uC744 \uB4F1\uB85D\uD558\uC9C0 \uC54A\uB294\uB2E4.
+    fetchRegistry: false      #Registry \uC815\uBCF4\uB97C \uB85C\uCEEC\uC5D0 \uCE90\uC2F1\uD558\uC9C0 \uC54A\uB294\uB2E4.
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+    enable-self-preservation: true
+    eviction-interval-timer-in-ms: 60000
+    renewal-percent-threshold: 0.85
+    renewal-threshold-update-interval-ms: 900000
+  instance:
+    lease-renewal-interval-in-seconds: 30
+    lease-expiration-duration-in-seconds: 90
+
+
+# acuator \uAD00\uB828 \uC124\uC815
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
