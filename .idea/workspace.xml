@@ -4,19 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe6971b3-d762-4d74-b425-aa682395738a" name="Changes" comment="Config Server README 내용 추가 , config 연동 레포지토리 private 설정">
-      <change afterPath="$PROJECT_DIR$/discovery-server/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-client/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springcloud/discovery/SpringCloudDiscoveryApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/springcloud/discovery/SpringCloudDiscoveryApplicationTests.java" beforeDir="false" />
+    <list default="true" id="fe6971b3-d762-4d74-b425-aa682395738a" name="Changes" comment="init: spring cloud discovery 프로젝트 시작">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/discovery-client2.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/discovery-client_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-client/src/main/java/springcloud/discoveryclient/Controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-client/src/main/java/springcloud/discoveryclient/client/DiscoveryHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-client2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-client2/src/main/java/springcloud/discoveryclient2/config/Jersey3TransportClientFactoriesConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-client2/src/main/java/springcloud/discoveryclient2/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-client2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-client3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-client3/src/main/java/springcloud/discoveryclient3/config/Jersey3TransportClientFactoriesConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-client3/src/main/java/springcloud/discoveryclient3/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-client3/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-client/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-client/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-client/src/main/java/springcloud/discoveryclient/DiscoveryClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-client/src/main/java/springcloud/discoveryclient/DiscoveryClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,16 +43,38 @@
     <projectState path="$PROJECT_DIR$/discovery-client">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/discovery-client2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/discovery-client3">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/discovery-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/discovery-server/discovery-client2">
       <ProjectState />
     </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/discovery-client">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="discovery-client" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="discovery-client" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -46,6 +84,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -76,6 +115,8 @@
     "Gradle.config-client 빌드.executor": "Run",
     "Gradle.config-server 빌드.executor": "Run",
     "Gradle.discovery-client 빌드.executor": "Run",
+    "Gradle.discovery-client2 빌드.executor": "Run",
+    "Gradle.discovery-client3 빌드.executor": "Run",
     "Gradle.discovery-server 빌드.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -86,14 +127,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.ConfigClientApplication.executor": "Run",
     "Spring Boot.ConfigServerApplication.executor": "Profiler#1",
+    "Spring Boot.DiscoveryClient2.executor": "Run",
+    "Spring Boot.DiscoveryClient3.executor": "Run",
     "Spring Boot.config-client.executor": "Run",
     "Spring Boot.config-server.executor": "Run",
     "Spring Boot.discovery-client.executor": "Run",
     "Spring Boot.discovery-server.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/wnstk/IdeaProjects/spring-cloud-discovery/discovery-server",
+    "last_opened_file_path": "C:/Users/wnstk/IdeaProjects/spring-cloud-discovery/discovery-client3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -101,14 +145,23 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "project.structure.side.proportion": "0.32873562",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "File.Encoding",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wnstk\IdeaProjects\spring-cloud-discovery\discovery-client3" />
+      <recent name="C:\Users\wnstk\IdeaProjects\spring-cloud-discovery\discovery-client3\src\main\resources" />
+      <recent name="C:\Users\wnstk\IdeaProjects\spring-cloud-discovery\discovery-client2" />
+      <recent name="C:\Users\wnstk\IdeaProjects\spring-cloud-discovery\discovery-client2\src\main\resources" />
       <recent name="C:\Users\wnstk\IdeaProjects\spring-cloud-discovery\discovery-server" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="springcloud.discoveryclient3.controller" />
+      <recent name="springcloud.discoveryclient3.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -120,7 +173,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.discovery-client">
+  <component name="RunManager" selected="Spring Boot.DiscoveryClient2">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="spring-cloud-discovery.main" />
       <method v="2">
@@ -134,11 +187,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DiscoveryClient2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="prod" />
+      <module name="discovery-client2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.discoveryclient2.DiscoveryClient2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryClient3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="prod" />
+      <module name="discovery-client3.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.discoveryclient3.DiscoveryClient3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="discovery-client" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" value="prod" />
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <module name="discovery-client.main" />
+      <module name="discovery-client_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.discoveryclient.DiscoveryClientApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,14 +223,16 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.discovery-client" />
       <item itemvalue="Spring Boot.discovery-server" />
+      <item itemvalue="Spring Boot.discovery-client" />
+      <item itemvalue="Spring Boot.DiscoveryClient2" />
+      <item itemvalue="Spring Boot.DiscoveryClient3" />
     </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
       </set>
     </attachedChunks>
   </component>
@@ -184,6 +255,10 @@
       <workItem from="1706208101130" duration="295000" />
       <workItem from="1706285934087" duration="6844000" />
       <workItem from="1706622815952" duration="5298000" />
+      <workItem from="1708095840102" duration="229000" />
+      <workItem from="1708096078050" duration="4185000" />
+      <workItem from="1708100453262" duration="4320000" />
+      <workItem from="1708162628425" duration="1410000" />
     </task>
     <task id="LOCAL-00001" summary="spring cloud config server,client">
       <option name="closed" value="true" />
@@ -209,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706628089823</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init: spring cloud discovery 프로젝트 시작">
+      <option name="closed" value="true" />
+      <created>1707323713011</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707323713011</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +329,8 @@
     <MESSAGE value="Config Client README 내용 추가 및 acuator 설정 추가" />
     <MESSAGE value="Config Server README 내용 추가 , config 연동 레포지토리 private 설정" />
     <MESSAGE value="Comment: application.yml 주석 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comment: application.yml 주석 변경" />
+    <MESSAGE value="init: spring cloud discovery 프로젝트 시작" />
+    <option name="LAST_COMMIT_MESSAGE" value="init: spring cloud discovery 프로젝트 시작" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

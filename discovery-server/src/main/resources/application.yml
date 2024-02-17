@@ -22,7 +22,7 @@ eureka:
     lease-expiration-duration-in-seconds: 90
 
 
-# acuator \uAD00\uB828 \uC124\uC815
+# acuator 설정
 management:
   endpoints:
     web:
