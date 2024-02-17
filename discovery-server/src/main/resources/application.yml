@@ -9,18 +9,12 @@ spring:
 
 eureka:
   client:
-    registerWithEureka: false #Eureka Service\uC5D0 \uC790\uC2E0\uC744 \uB4F1\uB85D\uD558\uC9C0 \uC54A\uB294\uB2E4.
-    fetchRegistry: false      #Registry \uC815\uBCF4\uB97C \uB85C\uCEEC\uC5D0 \uCE90\uC2F1\uD558\uC9C0 \uC54A\uB294\uB2E4.
+    registerWithEureka: false #Eureka server 에 instance로 등록할지에 대한 여부
+    fetchRegistry: false      #Registry 정보를 local cache에 저장할지에 대한 여부
   server:
-    waitTimeInMsWhenSyncEmpty: 0
-    enable-self-preservation: true
-    eviction-interval-timer-in-ms: 60000
     renewal-percent-threshold: 0.85
     renewal-threshold-update-interval-ms: 900000
-  instance:
-    lease-renewal-interval-in-seconds: 30
-    lease-expiration-duration-in-seconds: 90
-
+    response-cache-update-interval-ms: 5000 #서버에서 캐시 업데이트 주기
 
 # acuator 설정
 management:

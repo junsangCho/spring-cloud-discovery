@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe6971b3-d762-4d74-b425-aa682395738a" name="Changes" comment="Feat: 로드밸런싱 통신 테스트 프로젝트 추가&#10; - discovery-client2, discovery-client3 프로젝트 추가&#10; - Openfign 을 이용한 로드밸런싱 테스트코드 추가&#10; - 각 프로젝트별 README 추가">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-client/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-client/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-client2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-client2/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-client3/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-client3/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +237,7 @@
       <workItem from="1708095840102" duration="229000" />
       <workItem from="1708096078050" duration="4185000" />
       <workItem from="1708100453262" duration="4320000" />
-      <workItem from="1708162628425" duration="1959000" />
+      <workItem from="1708162628425" duration="14687000" />
     </task>
     <task id="LOCAL-00001" summary="spring cloud config server,client">
       <option name="closed" value="true" />
@@ -283,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708164465627</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Feat: 로드밸런싱 통신 테스트 프로젝트 추가&#10; - discovery-client2, discovery-client3 프로젝트 추가&#10; - Openfign 을 이용한 로드밸런싱 테스트코드 추가&#10; - 각 프로젝트별 README 추가">
+      <option name="closed" value="true" />
+      <created>1708164597554</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708164597554</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +312,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>

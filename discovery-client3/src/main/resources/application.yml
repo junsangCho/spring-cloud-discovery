@@ -11,3 +11,5 @@ eureka:
   client:
     service-url:
         defaultZone: http://localhost:8761/eureka/
+    registry-fetch-interval-seconds: 5 #서비스 목록 캐시 업데이트 주기
+    disable-delta: true  #캐싱시 변경된 부분만 업데이트
