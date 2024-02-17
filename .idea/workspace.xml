@@ -4,35 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe6971b3-d762-4d74-b425-aa682395738a" name="Changes" comment="init: spring cloud discovery 프로젝트 시작">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/discovery-client2.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/discovery-client_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-client/src/main/java/springcloud/discoveryclient/Controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-client/src/main/java/springcloud/discoveryclient/client/DiscoveryHello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-client2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-client2/src/main/java/springcloud/discoveryclient2/config/Jersey3TransportClientFactoriesConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-client2/src/main/java/springcloud/discoveryclient2/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-client2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-client3/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-client3/src/main/java/springcloud/discoveryclient3/config/Jersey3TransportClientFactoriesConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-client3/src/main/java/springcloud/discoveryclient3/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-client3/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-client/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-client/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-client/src/main/java/springcloud/discoveryclient/DiscoveryClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-client/src/main/java/springcloud/discoveryclient/DiscoveryClientApplication.java" afterDir="false" />
+    <list default="true" id="fe6971b3-d762-4d74-b425-aa682395738a" name="Changes" comment="Feat: 로드밸런싱 통신 테스트 프로젝트 추가&#10; - discovery-client2, discovery-client3 프로젝트 추가&#10; - Openfign 을 이용한 로드밸런싱 테스트코드 추가&#10; - 각 프로젝트별 README 추가">
       <change beforePath="$PROJECT_DIR$/discovery-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-client2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-client2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-client3/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-client3/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +233,7 @@
       <workItem from="1708095840102" duration="229000" />
       <workItem from="1708096078050" duration="4185000" />
       <workItem from="1708100453262" duration="4320000" />
-      <workItem from="1708162628425" duration="1410000" />
+      <workItem from="1708162628425" duration="1959000" />
     </task>
     <task id="LOCAL-00001" summary="spring cloud config server,client">
       <option name="closed" value="true" />
@@ -292,7 +267,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707323713011</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Feat: 로드밸런싱 통신 테스트 프로젝트 추가&#10; - discovery-client2, discovery-client3 프로젝트 추가&#10; - Openfign 을 이용한 로드밸런싱 테스트코드 추가&#10; - 각 프로젝트별 README 추가">
+      <option name="closed" value="true" />
+      <created>1708164447964</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708164447964</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Feat: 로드밸런싱 통신 테스트 프로젝트 추가&#10; - discovery-client2, discovery-client3 프로젝트 추가&#10; - Openfign 을 이용한 로드밸런싱 테스트코드 추가&#10; - 각 프로젝트별 README 추가">
+      <option name="closed" value="true" />
+      <created>1708164465627</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708164465627</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +300,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -330,7 +321,8 @@
     <MESSAGE value="Config Server README 내용 추가 , config 연동 레포지토리 private 설정" />
     <MESSAGE value="Comment: application.yml 주석 변경" />
     <MESSAGE value="init: spring cloud discovery 프로젝트 시작" />
-    <option name="LAST_COMMIT_MESSAGE" value="init: spring cloud discovery 프로젝트 시작" />
+    <MESSAGE value="Feat: 로드밸런싱 통신 테스트 프로젝트 추가&#10; - discovery-client2, discovery-client3 프로젝트 추가&#10; - Openfign 을 이용한 로드밸런싱 테스트코드 추가&#10; - 각 프로젝트별 README 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: 로드밸런싱 통신 테스트 프로젝트 추가&#10; - discovery-client2, discovery-client3 프로젝트 추가&#10; - Openfign 을 이용한 로드밸런싱 테스트코드 추가&#10; - 각 프로젝트별 README 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
